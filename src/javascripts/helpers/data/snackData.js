@@ -17,5 +17,4 @@ const getSnacksByUid = (uid) => new Promise((resolve, reject) => {
     .catch((error) => reject(error));
 });
 
-
 export default { getSnacksByUid };

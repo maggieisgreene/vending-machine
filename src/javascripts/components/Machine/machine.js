@@ -3,7 +3,9 @@ import smash from '../../helpers/data/smash';
 
 const buildTheMachine = () => {
   smash.getCompleteMachine()
-    .then((singleMachine) => console.error('1 machine likey', singleMachine))
+    .then(() => {
+      console.error('hey');
+    })
     .catch((error) => console.error(error, 'no likey'));
 };
 
