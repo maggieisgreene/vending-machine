@@ -1,0 +1,42 @@
+{
+  "snack1": {
+    "imageUrl": "https://www.hereforagooddeal.com/wp-content/uploads/2019/01/m-m-choco.jpg",
+    "name": "M&M's",
+    "price": 100,
+    "currentStocked": 2,
+    "lifetimeNum": 4,
+    "uid": "LIQ8v7CONxTudpvm5icp5IHoih33"
+  },
+  "snack2": {
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81LuQSOUJ7L._SL1500_.jpg",
+    "name": "Wild Berry Skittles",
+    "price": 100,
+    "currentStocked": 6,
+    "lifetimeNum": 100,
+    "uid": "LIQ8v7CONxTudpvm5icp5IHoih33"
+  },
+  "snack3": {
+    "imageUrl": "https://economycan-economycandy.netdna-ssl.com/wp-content/uploads/2016/02/Starburst-Original-1.jpg",
+    "name": "Starbursts",
+    "price": 100,
+    "currentStocked": 2,
+    "lifetimeNum": 3,
+    "uid": "LIQ8v7CONxTudpvm5icp5IHoih33"
+  },
+  "snack4": {
+    "imageUrl": "https://www.dollargeneral.com/media/catalog/product/cache/image/beff4985b56e3afdbeabfc89641a4582/0/0/00028400420549_0.jpg",
+    "name": "Lays Original",
+    "price": 100,
+    "currentStocked": 5,
+    "lifetimeNum": 56,
+    "uid": "LIQ8v7CONxTudpvm5icp5IHoih33"
+  },
+  "snack5": {
+    "imageUrl": "https://i5.walmartimages.com/asr/6c575e3b-b2c0-44b1-9d17-44490facdc33_1.23b7b509f2e3b1ab4bb0ba19a40f258c.jpeg",
+    "name": "Doritos Nacho Cheese",
+    "price": 100,
+    "currentStocked": 7,
+    "lifetimeNum": 678,
+    "uid": "12345"
+  }
+}

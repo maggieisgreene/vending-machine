@@ -10,7 +10,7 @@ const signMeIn = () => {
 };
 
 const loginButton = () => {
-  const domString = `<button>
+  const domString = `<button id="google-auth">
     <img src="${buttonImg}"></img>
   </button>`;
   utilities.printToDom('auth', domString);
