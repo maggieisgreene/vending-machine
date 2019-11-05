@@ -1,20 +1,27 @@
-import snackData from '../../helpers/data/snackData';
+import './snacks.scss';
 
-const snackCardBuilder = () => {
+const snackCardBuilder = (position) => {
   let domString = '';
-  const snacks = snackData.getSnacksByUid();
-  for (let i = 0; i < snacks.length; i += 0) {
+  if (position.snack.name) {
     domString += `
-    <div class="card">
-    <img src="${snacks.imageUrl}" class="card-img-top" alt="${snacks.name}">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    </div>
+    <div class="card col-4">
+  <img src=${position.snack.imageUrl} class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">${position.snack.name}</h5>
+    <p class="card-text">$${position.snack.price / 100}</p>
+    <p class="card-text">${position.position}</p>
   </div>
-    `;
+</div>`;
+  } else {
+    domString += `
+    <div class="card col-4">
+  <div class="card-body">
+    <p class="card-text">EMPTY</p>
+    <p class="card-text">${position.position}</p>
+  </div>
+</div>`;
   }
-  console.error(domString);
+
   return domString;
 };
 
