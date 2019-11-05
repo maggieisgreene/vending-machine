@@ -12,7 +12,7 @@ const buildTheMachine = () => {
         domString += snack.snackCardBuilder(position);
       });
       domString += '</div>';
-      utilities.printToDom('stock', domString);
+      utilities.printToDom('machine', domString);
     })
     .catch((error) => console.error(error));
 };
